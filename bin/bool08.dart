@@ -6,5 +6,11 @@
     Returns:
         bool
     */
+bool func(int a){
+    return 4 % 1 == 0 && 4 >= 0;
+}
 
-void main() {}
+
+void main() {
+    print(func(4));
+}
