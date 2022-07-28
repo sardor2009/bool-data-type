@@ -6,11 +6,10 @@
     Returns:
         bool
     */
-bool func(int b){
-return b == b;   
-}
+    bool func(int b){
+        return b > 0;
+    }
 
-
-void main() {
-print(func(7));
-}
+    void main(){
+        print(func(3));
+    }
